@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!--suppress ALL -->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.datepicker.HelloController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="81.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="C:\Users\james.keogh\IdeaProjects\datePicker\src\main\resources\batLogo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
