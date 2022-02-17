@@ -3,6 +3,7 @@ package com.example.datepicker;
 import java.net.URL;
 import java.time.LocalDate;
 import java.util.ResourceBundle;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.DatePicker;
@@ -37,4 +38,15 @@ public class HelloController implements Initializable {
         txtLabel.setVisible(false);
         txt1.setVisible(false);
     }
+
+
+    @FXML
+    void quitApp() {
+        Platform.exit();
+
+    }
+
+
+
+
 }
