@@ -22,6 +22,7 @@ public class HelloController implements Initializable {
 
     @FXML
     void getTheDate() {
+
         LocalDate time = datePicker.getValue();
         txt1.setText(String.valueOf(time));
         txt1.setVisible(true);
@@ -31,6 +32,8 @@ public class HelloController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
+        datePicker.setValue(LocalDate.now());
         txtLabel.setVisible(false);
         txt1.setVisible(false);
     }
