@@ -47,6 +47,4 @@ public class HelloController implements Initializable {
     }
 
 
-
-
 }

@@ -10,7 +10,7 @@
 
 <!--suppress ALL -->
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.datepicker.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.datepicker.HelloController">
    <children>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="81.0" layoutY="200.0" onMouseClicked="#getTheDate" pickOnBounds="true" preserveRatio="true">
          <image>
